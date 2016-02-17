@@ -6,4 +6,10 @@ def for_sum(list)
   sum
 end
 
-# for_sum [2,3]
+def while_sum(list)
+  sum = 0
+  while list.length > 0
+    sum += list.pop(1)
+  end
+  sum
+end
